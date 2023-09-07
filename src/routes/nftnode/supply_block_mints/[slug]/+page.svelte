@@ -67,8 +67,8 @@ const data = await response.json();`;
 </div>
 
 <div class="mt-6">
-  <label for="issuer" class="block text-sm font-medium text-stone-200">Enter supply block hash:</label>
-  <input type="text" id="issuer" bind:value={supplyBlockHash} placeholder="0000000000000000000000000000000000000000000000000000000000000000" class="p-3 mt-1 block w-full bg-stone-900 text-stone-100 rounded">
+  <label for="supply-block-hash" class="block text-sm font-medium text-stone-200">Enter supply block hash:</label>
+  <input type="text" id="supply-block-hash" bind:value={supplyBlockHash} placeholder="0000000000000000000000000000000000000000000000000000000000000000" class="p-3 mt-1 block w-full bg-stone-900 text-stone-100 rounded">
 </div>
 
 <div class="mt-6">
